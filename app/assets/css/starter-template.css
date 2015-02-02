@@ -1,0 +1,228 @@
+/*html{
+    background: url("../bg/trainTrack.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    $('body').scrollspy({ target: '.navbar' });
+}*/
+
+body {
+  /*padding-top: 50px;*/
+  position: relative;
+  $('body').scrollspy({ target: '.navbar' });
+  font-family: 'Roboto', sans-serif;
+  /*background-color: grey;*/
+  background: url(../bg/trainTrack.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+font-family: inherit;
+font-weight: 300;
+line-height: 1.1;
+color: inherit;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+  height: 15%;
+}
+
+/* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: black;
+		color: grey;
+      }
+
+	  
+
+.softWhiteBackground
+{
+    background-color: white;
+    /*opacity: 0.7;*/
+}
+
+
+.container .credit {
+        margin: 20px 0;
+}
+	  
+.cover
+{
+	text-align: center;
+    /*color: white;*/
+    /*text-shadow: 2px 2px black*/
+	vertical-align: middle;
+	/*background-image: url("../bg/trainTrack.jpg");*/
+}
+
+.schedules
+{
+	text-align: center;
+    background-color: white;
+    height: 100%;
+	vertical-align: middle;
+}
+  
+
+
+.information
+{
+	text-align: center;
+	vertical-align: middle;
+    padding-bottom: 60px;
+}
+
+.smoothBackground{
+    background: url(../bg/smoothBG.jpg) no-repeat center center fixed;
+    opacity: 0.9;
+}
+
+.smoothBlue{
+    background: url(../bg/smoothBGblue.jpg) no-repeat center center fixed;
+    opacity: 0.9;
+}
+
+.lead.right
+{
+    float: right;
+}
+
+.centered
+{
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 25%;
+}
+
+.map-layout{
+	height: 100%;
+    background-color: white;
+    /*opacity: 0.8;*/
+    padding-bottom: 20px;
+}
+
+#about {
+padding-top: 70px;
+}
+
+#map{
+padding-top: 70px;
+}
+
+#schedule {
+padding-top: 70px;
+}
+
+#contact {
+padding-top: 70px;
+}
+
+#rsvp {
+padding-top: 70px;
+}
+
+
+
+	#footer {
+      margin-top: -20px;
+      /*padding-top: 20px;*/
+	  /*margin-left: -20px;
+	  margin-right: -20px;
+	  padding-left: 20px;
+	  padding-right: 20px;*/
+	}
+
+    
+/*.container {
+width: 960px;
+min-height: 100%;
+height: 100%;
+}*/
+
+
+@media (min-width: 1201px){
+.container {
+width: 960px;
+min-height: 100%;
+height: 100%;
+}
+
+}
+
+@media (max-width: 1200px){
+.container {
+width: 960px;
+min-height: 100%;
+height: 100%;
+/*min-height: 100%;
+height: 100%;*/
+}
+
+
+
+
+
+}
+
+@media (max-width: 960px){
+.container {
+width: auto;
+min-height: 100%;
+height: 100%;
+}
+
+
+
+}
+
+
+@media (max-width: 768px){
+
+.container {
+width: auto;
+min-height: 100%;
+height: 100%;
+}
+
+}
+
+@media (max-width: 480px){
+.container {
+width: auto;
+min-height: 100%;
+height: 100%;
+}
+
+}
+
+
+.sectionSmall {
+
+}
+
+.sectionFull {
+	height: 100vh;
+}
